@@ -31,9 +31,13 @@
 }
 .inline-box{
     display: inline-block;
-    width: 100px;
+    width: 76px;
     border: 2px solid purple;
     font-family: initial;
     text-align: center;
     font-size: 25px;
+    background-color: aquamarine;
+    height: 76px;
+    border-radius: 10px;
+    object-fit: cover;
 }
