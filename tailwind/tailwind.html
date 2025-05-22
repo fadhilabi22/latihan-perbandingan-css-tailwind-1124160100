@@ -43,14 +43,21 @@
   <h2 class="text-xl font-semibold mb-2">7. Transformasi dan Animasi</h2>
   <div class="w-[200px] h-[200px] bg-purple-400 mx-auto my-5 transition-transform duration-500 hover:rotate-[20deg] hover:scale-125 hover:bg-indigo-700 hover:rounded-2xl hover:border-2 hover:border-[#FF0B55]">yahahaha</div>
 
-   <!-- Membuat Tombol dan Container -->
-  <h2 class="text-xl font-semibold mb-2">8. Membuat Tombol</h2>
-  <input type="checkbox" id="warna-toggle" class="hidden peer">
-  <label for="warna-toggle" class="inline-block bg-[#344CB7] text-white px-4 py-2 rounded-full cursor-pointer mb-4">Warna</label>
-  <div class="peer-checked:bg-black peer-checked:text-white transition-all duration-300 bg-[#00FF9C] text-[#C5172E] p-5 rounded">
-    <h1 class="text-2xl font-bold">Selamat datang!!</h1>
-    <p class="text-base">Disini adalah tempat untuk mencoba CSS dan HTML nihh</p>
-  </div>
-
+   <!-- Membuat form login -->
+    <h2 class="text-xl font-semibold mb-2">8. Membuat form login</h2>
+    <div class="bg-[#4E71FF] p-8 items-center rounded-lg shadow-md w-72 "> 
+      <h2 class="text-center mb-5">Login</h2>
+      <form action="proses-login" method="post" class="space-y-4">
+        <div>
+          <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
+          <input type="text" id="username" name="username" required class="mt-1 block w-full px-4  py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400">
+        </div>
+        <div>
+          <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+          <input type="password" id="password" name="password" required class="mt-1 block w-full px-4 py-2 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400">
+        </div>
+        <button type="submit" class="p-10 w-full bg-[#BBFBFF] border-none rounded-lg cursor-pointer hover:bg-[#7F8CAA]">Login</button>
+      </form>
+    </div>
 </body>
 </html>
